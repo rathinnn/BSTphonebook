@@ -16,6 +16,7 @@ public class DataNode {
 
     public DataNode(Human data) {
         this.data = data;
+        this.Name=data.FirstName;
         next=null;
     }
     

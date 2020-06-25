@@ -86,9 +86,9 @@ public class BSTNode {
         }
     }
     
-    public boolean search(Human key)
+    public boolean search(String key)
     {
-    int q = tunnel.Name.compareToIgnoreCase(key.FirstName);    
+    int q = tunnel.Name.compareToIgnoreCase(key);    
         if(q==0)
         {
             printall();

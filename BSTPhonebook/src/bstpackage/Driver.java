@@ -5,6 +5,8 @@
  */
 package bstpackage;
 
+import java.io.FileNotFoundException;
+
 /**
  *
  * @author dell
@@ -14,8 +16,15 @@ public class Driver {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         // TODO code application logic here
+        
+        TreeLibrary tree1=new TreeLibrary();
+        
+        tree1.read("input.txt");
+        tree1.inorder();
+        
+        tree1.search("NAruto");
     }
     
 }
