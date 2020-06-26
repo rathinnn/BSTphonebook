@@ -13,18 +13,24 @@ import java.io.FileNotFoundException;
  */
 public class Driver {
 
+
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) throws FileNotFoundException {
         // TODO code application logic here
         
+        
+        
+        
         TreeLibrary tree1=new TreeLibrary();
         
         tree1.read("input.txt");
-        tree1.inorder();
         
-        tree1.search("NAruto");
+        
+        tree1.insert(new Human("Naruto","23","24","25"));
+        tree1.search("NaruTo");
     }
     
 }

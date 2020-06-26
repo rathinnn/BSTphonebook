@@ -23,7 +23,7 @@ Kira Yoshikage 9871567360 Yoshikage.JOJO'S@BIZARREADVENTURE.com
 Roronoa Zoro 9292574205 Zoro.One@Piece.com
 Itachi Uchiha 9047908043 Uchiha.Naruto@Shippuden.com
 Naruto Uzumaki 9347928043 Hokage.Naruto@Shippuden.com
-Luffy D 9347622013 Luffy.OnePiece.com
+Luffy D 9347622013 Luffy.One@Piece.com
 Natsu Dragneel 9620416490 Natsu.Fairy@Tail.com
 Edward Elric 8942335361 Edward.Full@MetalAlchemistBrotherhood.com
 Eren Jaeger 9822785389 Eren.Attack@OnTitan.com
