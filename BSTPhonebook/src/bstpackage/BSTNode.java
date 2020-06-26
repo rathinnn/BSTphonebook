@@ -80,8 +80,11 @@ public class BSTNode {
                    }
                 }
         else if(q==0){
-            
-                tunnel.insert(key);
+                
+                System.out.println("Yes");
+                DataNode newNode = new DataNode(key);
+                newNode.next=tunnel;
+                tunnel=newNode;
                    return;
         }
     }
@@ -168,6 +171,27 @@ public class BSTNode {
         else
         {
             left.min();
+        }
+    }
+    
+    public void deleteLastName(String LName){
+        if(tunnel.data.LastName.equalsIgnoreCase(LName)){
+            tunnel=tunnel.next;
+            return;
+        }
+        DataNode temp = tunnel;
+        DataNode prev = null;
+        while(temp!=null&&!temp.data.LastName.equalsIgnoreCase(LName)){
+            prev=temp;
+            temp=temp.next;
+            
+        }
+        if(temp==null){
+            System.out.println("Not Found");
+            
+        }
+        else{
+            prev.next=temp.next;
         }
     }
    
